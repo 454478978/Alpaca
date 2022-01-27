@@ -349,10 +349,10 @@
         }
         SubmitResults();
         if (score <= 49) return '逊呐';
-        if (score <= 99) return '哼哼哼';
-        if (score <= 149) return '你是一个一个一个';
-        if (score <= 199) return '哼哼哼啊啊啊啊啊';
-        return '都撅烂了罢（恼';
+        if (score <= 99) return '这点手速，只配玩勇者斗恶龙';
+        if (score <= 149) return '不再摸鱼了！';
+        if (score <= 199) return '足以和水夏媲美的手速！';
+        return '开除粉籍！';
     }
 
     w.toStr = function(obj) {
